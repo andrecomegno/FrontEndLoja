@@ -1,0 +1,152 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.tb-social-network {
+    width: 100%;
+    height: 30px;
+    background-color: #000000;
+}
+
+.tb-top {
+    width: 100%;
+    height: 80px;
+    background-color: #fff8bf;
+}
+
+.tb-search {
+    width: 100%;
+    height: 80px;
+    background-color: #ddffcb;
+}
+
+.txtsearch {
+    width: 30%;
+    height: 30px;
+    border: 2px solid #eca25b;
+    border-radius: 0;
+    margin-left: 35%;
+}
+
+    .txtsearch:focus {
+        border: 2px solid #eca25b;
+        box-shadow: 0 0 3px #ffffff;
+        outline-offset: 0px;
+        outline: none;
+    }
+
+.bt-search {
+    height: 25px;
+    margin: -15px 0 -8px -35px;
+    margin-top: 8px;
+    outline-offset: 0px;
+    outline: none;
+}
+
+    .bt-search:active {
+        outline-offset: 0px;
+        outline: none;
+        transition: transform .2s;
+    }
+
+    .bt-search:hover {
+        transform: scale(.9);
+    }
+
+.style-search {
+    width: 100%;
+    height: 30%;
+}
+
+.tb-banner {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.tb-triple {
+    width: 100%;
+}
+
+.td-left {
+    width: 25%;
+    height: 100%;
+}
+
+.td-center {
+    width: 50%;
+    height: 100%;
+}
+
+.td-right {
+    width: 25%;
+    height: 100%;
+}
+
+.datalist {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.products {
+    margin-left: 10px;
+}
+
+.itens {
+    width: 200px;
+    height: 300px;
+}
+
+    .itens:hover {
+        box-shadow: 0 2px 4px #5bbe5d, 0 8px 16px rgba(0, 0, 0, .1);
+    }
+
+.itens-imagens {
+    height: 200px;
+}
+
+    .itens-imagens:focus {
+        outline-offset: 0px;
+        outline: none;
+    }
+
+.itens-name {
+    font-size: 15px;
+}
+
+.itens-real {
+    font-size: 20px;
+}
+
+.itens-price {
+    font-size: 20px;
+}
+
+.itens-button {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #5bbe5d;
+    color: white;
+    padding: 6px 1px;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    outline-offset: 0px;
+    outline: none;
+    border-radius: 12px;
+}
+
+    .itens-button:active {
+        background-color: #3e8e41;
+        outline-offset: 0px;
+        outline: none;
+        transform: translateY(4px);
+    }
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
